@@ -191,11 +191,6 @@ export default function TableTent() {
       <div className="page">
         <div className="grain" />
 
-        <div className="header">
-          <div className="logo">SUSHI<span>*</span>МЯСО</div>
-          <div className="tagline">Два мира —<br />один вкус</div>
-        </div>
-
         <div className="section-title">МЕНЮ НА ПЕРЕКУС</div>
 
         <div className="items">
