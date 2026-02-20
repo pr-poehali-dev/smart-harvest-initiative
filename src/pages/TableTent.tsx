@@ -189,6 +189,7 @@ export default function TableTent() {
           body { background: white; padding: 0; margin: 0; }
           .page { width: 148mm; height: 210mm; }
           .no-print { display: none; }
+          * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
         }
       `}</style>
 
