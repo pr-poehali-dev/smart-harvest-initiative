@@ -148,6 +148,53 @@ export default function Index() {
           </div>
         </section>
 
+        <section className="section-padding" style={{ borderTop: "var(--border)" }}>
+          <div className="section-header">
+            <h2 className="section-title">МЕНЮ НА ПЕРЕКУС</h2>
+          </div>
+
+          <div className="menu-grid">
+            <div className="menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Сэндвич"
+              />
+              <div className="menu-card-body">
+                <h3>Сэндвич с курицей / лососем / креветкой</h3>
+                <p style={{ fontSize: "14px", color: "#666", marginTop: "8px" }}>
+                  Тостовый хлеб, огурец, творожный сыр, фирменный соус.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Бургер с креветкой"
+              />
+              <div className="menu-card-body">
+                <h3>Бургер с креветкой</h3>
+                <p style={{ fontSize: "14px", color: "#666", marginTop: "8px" }}>
+                  Булочки, фирменный соус, креветки, руккола, помидор, бекон, майонез.
+                </p>
+              </div>
+            </div>
+
+            <div className="menu-card">
+              <img
+                src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Колбасоны"
+              />
+              <div className="menu-card-body">
+                <h3>Колбасоны со свининой</h3>
+                <p style={{ fontSize: "14px", color: "#666", marginTop: "8px" }}>
+                  Обжаренные свиные колбаски.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="retro-vibe">
           <div>
             <h2 className="vibe-title">ДВА МЕНЮ. ОДИН ВАЙБ.</h2>
